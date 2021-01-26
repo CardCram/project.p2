@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3coo7i0H96xTQdnyIyU62ZBiyTfjZWD2Iwn20Qv+6uzR13oOEPPSHp1jNfCwrj2i6Y/RTEwSYC6usxVqoRdOAA==",
+  "dgSpecHash": "eEkcLR68NE5Sf2tbiniWLxWpSAW8xHSDqN2wcXcJa1ftnmEVo5YSH8sPnIXApZUCRZVixAvvqRjgBIVHCyiqDg==",
   "success": true,
-  "projectFilePath": "/Users/amulyakakumanu/Desktop/revature/projects/p2/CardCram.Client/CardCram.Client.csproj",
+  "projectFilePath": "/home/michael/revature/projects/p2/project.p2/p2/CardCram.Client/CardCram.Client.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

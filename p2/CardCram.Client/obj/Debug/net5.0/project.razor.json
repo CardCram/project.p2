@@ -15613,11 +15613,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/michael/revature/projects/p2/project.p2/p2/CardCram.Client/Views/Home/Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/home/michael/revature/projects/p2/project.p2/p2/CardCram.Client/Views/_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
