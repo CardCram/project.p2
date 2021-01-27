@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "/Users/amulyakakumanu/.nuget/packages/": {}
+    "/home/michael/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/amulyakakumanu/Desktop/revature/projects/p2/CardCram.Client/CardCram.Client.csproj",
+      "projectUniqueName": "/home/michael/revature/projects/p2/project.p2/p2/CardCram.Client/CardCram.Client.csproj",
       "projectName": "CardCram.Client",
-      "projectPath": "/Users/amulyakakumanu/Desktop/revature/projects/p2/CardCram.Client/CardCram.Client.csproj",
-      "packagesPath": "/Users/amulyakakumanu/.nuget/packages/",
-      "outputPath": "/Users/amulyakakumanu/Desktop/revature/projects/p2/CardCram.Client/obj/",
+      "projectPath": "/home/michael/revature/projects/p2/project.p2/p2/CardCram.Client/CardCram.Client.csproj",
+      "packagesPath": "/home/michael/.nuget/packages/",
+      "outputPath": "/home/michael/revature/projects/p2/project.p2/p2/CardCram.Client/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/amulyakakumanu/.nuget/NuGet/NuGet.Config"
+        "/home/michael/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }
