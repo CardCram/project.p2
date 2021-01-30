@@ -8,15 +8,21 @@ namespace CardCram.Client.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        public DeckViewModel CardList;
 
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(DeckViewModel model)
         {
-            return View();
+            CardList = model;
+            foreach (var item in CardList.Cards)
+            {
+                System.Console.WriteLine(item.Question);
+            }
+            return View(CardList);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

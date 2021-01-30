@@ -1,66 +1,39 @@
 using System;
 using CardCram.Client.Models;
+using CardCram.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CardCram.Client.Controllers
 {
     public class CardController : Controller
     {
-        CardViewModel NewCard = new CardViewModel();
+        Card NewCard = new Card();
         DeckViewModel CardList = new DeckViewModel();
         [Route("[controller]/[action]")]
 
-        [HttpPost]
-        public IActionResult CreateDeck()
-        {
-
-            
-            return View ();
-        }
-
-        [HttpPost]
+        [HttpGet]
         public IActionResult AddCard()
         {
-            String Answer = NewCard.Answer;
-            String Question = NewCard.Question;
-            if(CardList is null)
-            {
-                CardList.Cards.Add(NewCard);
-                ViewData["CardList"] = CardList;
-            }
-
-            else
-            {
-                ViewData["CardList"] = CardList;
-            }
-            
-            return View();
+            return View("create", CardList);
         }
 
-        [HttpPost]
+        [HttpGet]
         public IActionResult DeleteCard()
         {
-            CardList.Cards.Remove(NewCard);
-            return View();
+            return View("delete", CardList);
         }
 
-        [HttpPost]
-
-        public IActionResult DeleteDeck()
+        [HttpGet]
+        public IActionResult Create(DeckViewModel model)
         {
-            return View();
+            CardList.Cards.Add(model.NewCard);
+            return View("viewcards", CardList);
         }
 
-        public IActionResult DownloadDeck()
+        [HttpGet]
+        public IActionResult ViewCards()
         {
-            return View();
-
-        
+            return View("viewcards", CardList);
         }
-
-
-        
-        
-            
     }
 }

@@ -25,6 +25,7 @@
     ".NETCoreApp,Version=v5.0": {
       "CardCram.Client/1.0.0": {
         "dependencies": {
+          "CardCram.Domain": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -314,6 +315,14 @@
         },
         "compile": {
           "CardCram.Client.dll": {}
+        }
+      },
+      "CardCram.Domain/1.0.0": {
+        "runtime": {
+          "CardCram.Domain.dll": {}
+        },
+        "compile": {
+          "CardCram.Domain.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -2018,6 +2027,11 @@
   },
   "libraries": {
     "CardCram.Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CardCram.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

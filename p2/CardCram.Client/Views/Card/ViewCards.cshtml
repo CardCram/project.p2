@@ -1,0 +1,18 @@
+@model CardCram.Client.Models.DeckViewModel
+
+@{
+    ViewData["Title"] = "View";
+}
+
+<p>The answer is right below the question; highlight it to see it.</p>
+
+@foreach (var card in Model.Cards)
+{
+    @card.Question;<br>
+    <p style="color: white">@card.Answer</p>
+}
+
+<br>
+<form asp-action="Index" asp-controller="Home" asp-antiforgery="true" method="GET">
+    <button type="submit">Back To Home</button>
+</form>

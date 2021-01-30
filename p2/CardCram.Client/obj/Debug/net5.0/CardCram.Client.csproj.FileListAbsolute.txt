@@ -80,3 +80,10 @@
 /home/monib488/Revature/Projects/project.p2/p2/CardCram.Client/obj/Debug/net5.0/CardCram.Client.pdb
 /home/monib488/Revature/Projects/project.p2/p2/CardCram.Client/obj/Debug/net5.0/CardCram.Client.genruntimeconfig.cache
 /home/monib488/Revature/Projects/project.p2/p2/CardCram.Client/obj/Debug/net5.0/CardCram.Client.csproj.CopyComplete
+/home/michael/revature/projects/p2/project.p2/p2/CardCram.Client/obj/Debug/net5.0/Razor/Views/Card/Delete.cshtml.g.cs
+/home/michael/revature/projects/p2/project.p2/p2/CardCram.Client/obj/Debug/net5.0/Razor/Views/Deck/Create.cshtml.g.cs
+/home/michael/revature/projects/p2/project.p2/p2/CardCram.Client/obj/Debug/net5.0/Razor/Views/Deck/Delete.cshtml.g.cs
+/home/michael/revature/projects/p2/project.p2/p2/CardCram.Client/obj/Debug/net5.0/Razor/Views/Card/Create.cshtml.g.cs
+/home/michael/revature/projects/p2/project.p2/p2/CardCram.Client/bin/Debug/net5.0/CardCram.Domain.dll
+/home/michael/revature/projects/p2/project.p2/p2/CardCram.Client/bin/Debug/net5.0/CardCram.Domain.pdb
+/home/michael/revature/projects/p2/project.p2/p2/CardCram.Client/obj/Debug/net5.0/Razor/Views/Card/ViewCards.cshtml.g.cs
