@@ -1,13 +1,13 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-using StoreAPI.Models;
+using CardCram.Domain.Models;
 
 namespace StoreAPI.Service
 {
   public class CardCramContext : DbContext
   {
     public DbSet<Deck> Deck { get; set; }
-    public DbSet<Cards> Card { get; set; }
+    public DbSet<Card> Card { get; set; }
 
     public CardCramContext(DbContextOptions<CardCramContext> options) : base(options) {}
     protected override void OnConfiguring(DbContextOptionsBuilder builder)

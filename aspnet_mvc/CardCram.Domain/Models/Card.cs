@@ -2,8 +2,11 @@ namespace CardCram.Domain.Models
 {
   public class Card
   {
-    public int CardId { get; set; }
+    public int EntityId { get; set; }
     public string Question { get; set; }
-    public string Answer { get; set; }
+
+    public string Answer {get; set;}
+    public Deck Deck { get; set; }
+    public int DeckEntityId { get; set; }
   }
 }

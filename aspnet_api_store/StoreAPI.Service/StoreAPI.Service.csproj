@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\aspnet_mvc\CardCram.Client\CardCram.Client.csproj" />
+    <ProjectReference Include="..\..\aspnet_mvc\CardCram.Domain\CardCram.Domain.csproj" />
   </ItemGroup>
 
 </Project>
