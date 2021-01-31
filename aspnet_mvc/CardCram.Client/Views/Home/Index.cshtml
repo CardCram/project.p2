@@ -1,0 +1,29 @@
+﻿@model CardCram.Client.Models.DeckViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome To CardCram! </h1>
+
+    <p>
+        Didn't get enough time to study for a test? Or do you need some quick refresh notes on a certain subject?
+        CardCram is here to help! We have a selection of pre-made subjects for you to study, memorize, and more.
+        With CardCram, you can also make your own cards to export or share with classmates. Get CardCram-ming today!
+    </p>
+    
+    <a asp-area="" asp-controller="Card" asp-action="AddCard">Add a Card</a><br>
+    <a asp-area="" asp-controller="Card" asp-action="DeleteCard">Delete a Card</a><br>
+    <a asp-area="" asp-controller="Deck" asp-action="CreateDeck">Create a Deck</a><br>
+    <a asp-area="" asp-controller="Deck" asp-action="DeleteDeck">Delete a Deck</a><br>
+
+</div>
+
+
+
+
+
+<div>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
