@@ -5585,6 +5585,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "CardCram.Client >= 1.0.0",
+      "CardCram.Domain >= 1.0.0",
       "Newtonsoft.Json >= 12.0.3",
       "Swashbuckle.AspNetCore >= 5.6.3",
       "microsoft.entityframeworkcore.design >= 5.0.2",
@@ -5592,19 +5593,19 @@
     ]
   },
   "packageFolders": {
-    "/home/monib488/.nuget/packages/": {}
+    "/home/michael/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/monib488/Revature/Projects/project.p2/aspnet_api_store/StoreAPI.Service/StoreAPI.Service.csproj",
+      "projectUniqueName": "/home/michael/revature/projects/p2/project.p2/aspnet_api_store/StoreAPI.Service/StoreAPI.Service.csproj",
       "projectName": "StoreAPI.Service",
-      "projectPath": "/home/monib488/Revature/Projects/project.p2/aspnet_api_store/StoreAPI.Service/StoreAPI.Service.csproj",
-      "packagesPath": "/home/monib488/.nuget/packages/",
-      "outputPath": "/home/monib488/Revature/Projects/project.p2/aspnet_api_store/StoreAPI.Service/obj/",
+      "projectPath": "/home/michael/revature/projects/p2/project.p2/aspnet_api_store/StoreAPI.Service/StoreAPI.Service.csproj",
+      "packagesPath": "/home/michael/.nuget/packages/",
+      "outputPath": "/home/michael/revature/projects/p2/project.p2/aspnet_api_store/StoreAPI.Service/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/monib488/.nuget/NuGet/NuGet.Config"
+        "/home/michael/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -5616,8 +5617,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/home/monib488/Revature/Projects/project.p2/aspnet_mvc/CardCram.Client/CardCram.Client.csproj": {
-              "projectPath": "/home/monib488/Revature/Projects/project.p2/aspnet_mvc/CardCram.Client/CardCram.Client.csproj"
+            "/home/michael/revature/projects/p2/project.p2/aspnet_mvc/CardCram.Client/CardCram.Client.csproj": {
+              "projectPath": "/home/michael/revature/projects/p2/project.p2/aspnet_mvc/CardCram.Client/CardCram.Client.csproj"
+            },
+            "/home/michael/revature/projects/p2/project.p2/aspnet_mvc/CardCram.Domain/CardCram.Domain.csproj": {
+              "projectPath": "/home/michael/revature/projects/p2/project.p2/aspnet_mvc/CardCram.Domain/CardCram.Domain.csproj"
             }
           }
         }
@@ -5669,7 +5673,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }

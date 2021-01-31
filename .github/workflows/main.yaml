@@ -1,6 +1,6 @@
 defaults:
   run:
-    working-directory: aspnet
+    working-directory: aspnet_mvc
 
 jobs:
   build:
