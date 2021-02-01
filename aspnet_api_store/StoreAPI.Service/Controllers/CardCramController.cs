@@ -5,10 +5,10 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using StoreApi.Service.Models;
+using StoreAPI.Service.Models;
 using StoreAPI.Service;
 
-namespace StoreApi.Service.Controllers
+namespace StoreAPI.Service.Controllers
 {
   [ApiController]
   [Route("[controller]")]

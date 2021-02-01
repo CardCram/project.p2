@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace StoreApi.Service.Models
+namespace StoreAPI.Service.Models
 {
   public class Deck
   {
