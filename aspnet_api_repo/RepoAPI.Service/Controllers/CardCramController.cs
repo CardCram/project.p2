@@ -25,9 +25,9 @@ namespace RepoAPI.Service.Controllers
 
       if (response.IsSuccessStatusCode)
       {
-        //var content = JsonConvert<CardCramModel>(await response.Content.ReadAsStringAsync());
+        var content = JsonConvert.DeserializeObject<CardCramModel>(await response.Content.ReadAsStringAsync());
 
-        return Ok(await response.Content.ReadAsStringAsync());
+        return Ok(content);
 
       }
 
