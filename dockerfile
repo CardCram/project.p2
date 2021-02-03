@@ -1,7 +1,9 @@
 FROM mcr.microsoft.com/dotnet/sdk:5.0 as base
 
 WORKDIR /workspace
-COPY aspnet .
+COPY aspnet_api_repo .
+COPY aspnet_api_store .
+COPY aspnet_mvc .
 RUN dotnet build
 RUN dotnet publish -c Release -o out CardCram.Client/CardCram.Client.csproj
 
