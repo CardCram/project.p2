@@ -45,7 +45,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: echo $DOCKER_TOKEN | docker login -u $DOCKER_USER --password-stdin
       - run: docker image build -f ../dockerfile -t project.p2 ..
-      - run: docker image tag project2 mlaba49/project.p2
+      - run: docker image tag project.p2 mlaba49/project.p2
       - run: docker image push mlaba49/project.p2
       - run: docker logout
 
