@@ -4,7 +4,7 @@ WORKDIR /workspace
 COPY aspnet_api_repo .
 COPY aspnet_api_store .
 COPY aspnet_mvc .
-RUN dotnet build -t aspnet_mvc .
+RUN dotnet build aspnet_mvc/AspnetMvc.sln
 RUN dotnet publish -c Release -o out CardCram.Client/CardCram.Client.csproj
 
 FROM mcr.microsoft.com/dotnet/aspnet:5.0
