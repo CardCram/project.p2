@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:5.0 as bas
+FROM mcr.microsoft.com/dotnet/sdk:5.0 as base
 
 WORKDIR /workspace
 COPY aspnet_api_repo .
