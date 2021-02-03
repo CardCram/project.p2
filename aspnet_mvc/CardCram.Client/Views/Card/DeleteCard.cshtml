@@ -1,0 +1,14 @@
+@model CardCram.Client.Models.DeckViewModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<p>Current cards:</p>
+
+@foreach (var card in Model.Cards)
+{
+    @card.Question;
+}
+
+<a asp-controller="Home" asp-action="Index"> Back To Home </a>
