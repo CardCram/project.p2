@@ -1469,34 +1469,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
-      },
-      "CardCram.Client/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "CardCram.Domain": "1.0.0",
-          "Newtonsoft.Json": "12.0.3",
-          "microsoft.entityframeworkcore.sqlserver": "5.0.2"
-        },
-        "compile": {
-          "bin/placeholder/CardCram.Client.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CardCram.Client.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      },
-      "CardCram.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/CardCram.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CardCram.Domain.dll": {}
-        }
       }
     }
   },
@@ -5570,22 +5542,10 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
-    },
-    "CardCram.Client/1.0.0": {
-      "type": "project",
-      "path": "../../aspnet_mvc/CardCram.Client/CardCram.Client.csproj",
-      "msbuildProject": "../../aspnet_mvc/CardCram.Client/CardCram.Client.csproj"
-    },
-    "CardCram.Domain/1.0.0": {
-      "type": "project",
-      "path": "../../aspnet_mvc/CardCram.Domain/CardCram.Domain.csproj",
-      "msbuildProject": "../../aspnet_mvc/CardCram.Domain/CardCram.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "CardCram.Client >= 1.0.0",
-      "CardCram.Domain >= 1.0.0",
       "Newtonsoft.Json >= 12.0.3",
       "Swashbuckle.AspNetCore >= 5.6.3",
       "microsoft.entityframeworkcore.design >= 5.0.2",
@@ -5593,19 +5553,19 @@
     ]
   },
   "packageFolders": {
-    "/home/michael/.nuget/packages/": {}
+    "/Users/amulyakakumanu/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/michael/revature/projects/p2/project.p2/aspnet_api_store/StoreAPI.Service/StoreAPI.Service.csproj",
+      "projectUniqueName": "/Users/amulyakakumanu/Desktop/p2/aspnet_api_store/StoreAPI.Service/StoreAPI.Service.csproj",
       "projectName": "StoreAPI.Service",
-      "projectPath": "/home/michael/revature/projects/p2/project.p2/aspnet_api_store/StoreAPI.Service/StoreAPI.Service.csproj",
-      "packagesPath": "/home/michael/.nuget/packages/",
-      "outputPath": "/home/michael/revature/projects/p2/project.p2/aspnet_api_store/StoreAPI.Service/obj/",
+      "projectPath": "/Users/amulyakakumanu/Desktop/p2/aspnet_api_store/StoreAPI.Service/StoreAPI.Service.csproj",
+      "packagesPath": "/Users/amulyakakumanu/.nuget/packages/",
+      "outputPath": "/Users/amulyakakumanu/Desktop/p2/aspnet_api_store/StoreAPI.Service/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/michael/.nuget/NuGet/NuGet.Config"
+        "/Users/amulyakakumanu/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -5616,14 +5576,7 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {
-            "/home/michael/revature/projects/p2/project.p2/aspnet_mvc/CardCram.Client/CardCram.Client.csproj": {
-              "projectPath": "/home/michael/revature/projects/p2/project.p2/aspnet_mvc/CardCram.Client/CardCram.Client.csproj"
-            },
-            "/home/michael/revature/projects/p2/project.p2/aspnet_mvc/CardCram.Domain/CardCram.Domain.csproj": {
-              "projectPath": "/home/michael/revature/projects/p2/project.p2/aspnet_mvc/CardCram.Domain/CardCram.Domain.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -5673,7 +5626,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }

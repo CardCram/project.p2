@@ -6,5 +6,7 @@ namespace StoreAPI.Service.Models
   {
     public int EntityId { get; set; }
     public List<Card> Cards  { get; set; }
+
+    public string Name {get; set;}
   }
 }
