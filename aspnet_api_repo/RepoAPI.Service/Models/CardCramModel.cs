@@ -4,7 +4,8 @@ namespace RepoAPI.Service.Models
 {
     public class CardCramModel
     {
-        public List<string> Card { get; set; }
-        public List<string> Deck { get; set; }
+        public int EntityId { get; set; }
+        public List<Card> Cards  { get; set; }
+        public string Name {get; set;}
     }
 }

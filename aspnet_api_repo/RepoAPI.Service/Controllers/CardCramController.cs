@@ -15,7 +15,7 @@ namespace RepoAPI.Service.Controllers
   [Route("[controller]")]
   public class CardCramController : ControllerBase
   {
-    private string apiUrl = "https://api.Cram.com/v2";
+    private string apiUrl = "https://localhost:5441/api";
     private HttpClient _http = new HttpClient();
 
     [HttpGet]
