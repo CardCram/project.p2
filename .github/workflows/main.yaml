@@ -49,4 +49,18 @@ jobs:
       - run: docker image push mlaba49/project.p2
       - run: docker logout
 
-on: push
+  deploy:
+    needs: pack
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+      - uses: azure/webapps-deploy@v2
+        with:
+          app-name: fredoktademo
+          images: fredbelotte/oktademo
+
+on:
+  push
