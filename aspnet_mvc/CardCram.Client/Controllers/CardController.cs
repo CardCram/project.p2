@@ -28,5 +28,11 @@ namespace CardCram.Client.Controllers
         
             
         }
+
+        [HttpGet]
+        public IActionResult DeleteCard()
+        {
+            return View ("DeleteCard", new DeckViewModel());
+        }
     }
 }

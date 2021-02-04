@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/amulyakakumanu/Desktop/p2/aspnet_api_repo/RepoAPI.Service/RepoAPI.Service.csproj": {}
+    "/home/michael/revature/projects/p2/project.p2/aspnet_api_repo/RepoAPI.Service/RepoAPI.Service.csproj": {}
   },
   "projects": {
-    "/Users/amulyakakumanu/Desktop/p2/aspnet_api_repo/RepoAPI.Service/RepoAPI.Service.csproj": {
+    "/home/michael/revature/projects/p2/project.p2/aspnet_api_repo/RepoAPI.Service/RepoAPI.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/amulyakakumanu/Desktop/p2/aspnet_api_repo/RepoAPI.Service/RepoAPI.Service.csproj",
+        "projectUniqueName": "/home/michael/revature/projects/p2/project.p2/aspnet_api_repo/RepoAPI.Service/RepoAPI.Service.csproj",
         "projectName": "RepoAPI.Service",
-        "projectPath": "/Users/amulyakakumanu/Desktop/p2/aspnet_api_repo/RepoAPI.Service/RepoAPI.Service.csproj",
-        "packagesPath": "/Users/amulyakakumanu/.nuget/packages/",
-        "outputPath": "/Users/amulyakakumanu/Desktop/p2/aspnet_api_repo/RepoAPI.Service/obj/",
+        "projectPath": "/home/michael/revature/projects/p2/project.p2/aspnet_api_repo/RepoAPI.Service/RepoAPI.Service.csproj",
+        "packagesPath": "/home/michael/.nuget/packages/",
+        "outputPath": "/home/michael/revature/projects/p2/project.p2/aspnet_api_repo/RepoAPI.Service/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/amulyakakumanu/.nuget/NuGet/NuGet.Config"
+          "/home/michael/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }
