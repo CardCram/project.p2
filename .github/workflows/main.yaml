@@ -60,7 +60,7 @@ jobs:
       - uses: azure/webapps-deploy@v2
         with:
           app-name: spcardcram
-          images: amulya.kakumanu1997/spcardcram
+          images: mlaba49/project.p2
 
 on:
   push
