@@ -28,11 +28,5 @@ namespace CardCram.Client.Controllers
         
             
         }
-
-        [HttpPost]
-        public async Task<IActionResult> Post()
-        {
-            
-        }
     }
 }
