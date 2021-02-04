@@ -27,6 +27,14 @@
         </nav>
     </header>
     <div class="container">
+        @if (User.Identity.IsAuthenticated)
+        {
+            <p class="navbar-text">Hello, @User.Identity.Name</p>
+        }
+        else
+        {
+            <a asp-controller="Account" asp-action="SignIn">Sign In</a>
+        }
         <main role="main" class="pb-3">
             @RenderBody()
         </main>

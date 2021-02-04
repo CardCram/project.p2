@@ -33,9 +33,8 @@ namespace SecurityMvc.Client
             .AddCookie()
             .AddOktaMvc(new OktaMvcOptions
             {
-                
-                OktaDomain = Configuration["oktaDomain"]
-                ClientId = Configuration["oktaClient"]
+                OktaDomain = Configuration["oktaDomain"],
+                ClientId = Configuration["oktaClient"],
                 ClientSecret = Configuration["oktaSecret"]
             });
             services.AddControllersWithViews();
