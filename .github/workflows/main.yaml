@@ -59,8 +59,8 @@ jobs:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
       - uses: azure/webapps-deploy@v2
         with:
-          app-name: fredoktademo
-          images: fredbelotte/oktademo
+          app-name: spcardcram
+          images: amulya.kakumanu1997/spcardcram
 
 on:
   push

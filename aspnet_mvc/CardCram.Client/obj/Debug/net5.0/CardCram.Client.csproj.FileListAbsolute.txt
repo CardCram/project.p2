@@ -73,3 +73,14 @@
 /Users/amulyakakumanu/Desktop/p2/aspnet_mvc/CardCram.Client/obj/Debug/net5.0/Razor/Views/Card/DeleteCard.cshtml.g.cs
 /Users/amulyakakumanu/Desktop/p2/aspnet_mvc/CardCram.Client/obj/Debug/net5.0/Razor/Views/Deck/CreateDeck.cshtml.g.cs
 /Users/amulyakakumanu/Desktop/p2/aspnet_mvc/CardCram.Client/obj/Debug/net5.0/Razor/Views/Deck/DeleteDeck.cshtml.g.cs
+/home/michael/revature/projects/p2/project.p2/aspnet_mvc/CardCram.Client/obj/Debug/net5.0/CardCram.Client.csprojAssemblyReference.cache
+/home/michael/revature/projects/p2/project.p2/aspnet_mvc/CardCram.Client/obj/Debug/net5.0/CardCram.Client.GeneratedMSBuildEditorConfig.editorconfig
+/home/michael/revature/projects/p2/project.p2/aspnet_mvc/CardCram.Client/obj/Debug/net5.0/CardCram.Client.AssemblyInfoInputs.cache
+/home/michael/revature/projects/p2/project.p2/aspnet_mvc/CardCram.Client/obj/Debug/net5.0/CardCram.Client.AssemblyInfo.cs
+/home/michael/revature/projects/p2/project.p2/aspnet_mvc/CardCram.Client/obj/Debug/net5.0/CardCram.Client.csproj.CoreCompileInputs.cache
+/home/michael/revature/projects/p2/project.p2/aspnet_mvc/CardCram.Client/obj/Debug/net5.0/CardCram.Client.MvcApplicationPartsAssemblyInfo.cache
+/home/michael/revature/projects/p2/project.p2/aspnet_mvc/CardCram.Client/obj/Debug/net5.0/CardCram.Client.RazorAssemblyInfo.cache
+/home/michael/revature/projects/p2/project.p2/aspnet_mvc/CardCram.Client/obj/Debug/net5.0/CardCram.Client.RazorAssemblyInfo.cs
+/home/michael/revature/projects/p2/project.p2/aspnet_mvc/CardCram.Client/obj/Debug/net5.0/CardCram.Client.dll
+/home/michael/revature/projects/p2/project.p2/aspnet_mvc/CardCram.Client/obj/Debug/net5.0/ref/CardCram.Client.dll
+/home/michael/revature/projects/p2/project.p2/aspnet_mvc/CardCram.Client/obj/Debug/net5.0/CardCram.Client.pdb
