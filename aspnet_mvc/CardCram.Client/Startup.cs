@@ -33,14 +33,12 @@ namespace CardCram.Client
             .AddCookie()
             .AddOktaMvc(new OktaMvcOptions
             {
-                
-                OktaDomain = Configuration["oktaDomain"]
-                ClientId = Configuration["oktaClient"]
+                OktaDomain = Configuration["oktaDomain"],
+                ClientId = Configuration["oktaClient"],
                 ClientSecret = Configuration["oktaSecret"]
             });
             services.AddControllersWithViews();
         }
-            services.AddControllersWithViews();
         
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

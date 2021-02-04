@@ -1,39 +1,38 @@
-using System;
+using System.Net.Http;
+using System.Threading.Tasks;
 using CardCram.Client.Models;
-using CardCram.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace CardCram.Client.Controllers
 {
     public class CardController : Controller
     {
-        Card NewCard = new Card();
-        DeckViewModel CardList = new DeckViewModel();
-        [Route("[controller]/[action]")]
+        public string apiUrl = "https://localhost:5551/CardCram";
+
+        private HttpClient _http = new HttpClient();
 
         [HttpGet]
-        public IActionResult AddCard()
+        public async Task<IActionResult> Get()
         {
-            return View("create", CardList);
+            var response = await _http.GetAsync(apiUrl);
+
+            if (response.IsSuccessStatusCode)
+            {
+                var content = JsonConvert.DeserializeObject<CardViewModel>(await response.Content.ReadAsStringAsync());
+                return View("CreateCard", content);
+            }
+
+            var ErrorViewModel = new ErrorViewModel();
+            return View ("Error", ErrorViewModel);
+        
+            
         }
 
-        [HttpGet]
-        public IActionResult DeleteCard()
+        [HttpPost]
+        public async Task<IActionResult> Post()
         {
-            return View("delete", CardList);
-        }
-
-        [HttpGet]
-        public IActionResult Create(DeckViewModel model)
-        {
-            CardList.Cards.Add(model.NewCard);
-            return View("viewcards", CardList);
-        }
-
-        [HttpGet]
-        public IActionResult ViewCards()
-        {
-            return View("viewcards", CardList);
+            
         }
     }
 }

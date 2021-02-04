@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/monib488/Revature/Projects/project.p2/aspnet_api_store/StoreAPI.Service/StoreAPI.Service.csproj": {}
+    "/Users/amulyakakumanu/Desktop/p2/aspnet_api_store/StoreAPI.Service/StoreAPI.Service.csproj": {}
   },
   "projects": {
-    "/home/monib488/Revature/Projects/project.p2/aspnet_api_store/StoreAPI.Service/StoreAPI.Service.csproj": {
+    "/Users/amulyakakumanu/Desktop/p2/aspnet_api_store/StoreAPI.Service/StoreAPI.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/monib488/Revature/Projects/project.p2/aspnet_api_store/StoreAPI.Service/StoreAPI.Service.csproj",
+        "projectUniqueName": "/Users/amulyakakumanu/Desktop/p2/aspnet_api_store/StoreAPI.Service/StoreAPI.Service.csproj",
         "projectName": "StoreAPI.Service",
-        "projectPath": "/home/monib488/Revature/Projects/project.p2/aspnet_api_store/StoreAPI.Service/StoreAPI.Service.csproj",
-        "packagesPath": "/home/monib488/.nuget/packages/",
-        "outputPath": "/home/monib488/Revature/Projects/project.p2/aspnet_api_store/StoreAPI.Service/obj/",
+        "projectPath": "/Users/amulyakakumanu/Desktop/p2/aspnet_api_store/StoreAPI.Service/StoreAPI.Service.csproj",
+        "packagesPath": "/Users/amulyakakumanu/.nuget/packages/",
+        "outputPath": "/Users/amulyakakumanu/Desktop/p2/aspnet_api_store/StoreAPI.Service/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/monib488/.nuget/NuGet/NuGet.Config"
+          "/Users/amulyakakumanu/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -25,11 +25,7 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {
-              "/home/monib488/Revature/Projects/project.p2/aspnet_mvc/CardCram.Client/CardCram.Client.csproj": {
-                "projectPath": "/home/monib488/Revature/Projects/project.p2/aspnet_mvc/CardCram.Client/CardCram.Client.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
