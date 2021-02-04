@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using CardCram.Client.Models;
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace CardCram.Client.Controllers
 {

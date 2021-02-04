@@ -134,6 +134,10 @@
             "microsoft.entityframeworkcore.sqlserver": {
               "target": "Package",
               "version": "[5.0.2, )"
+            },
+            "okta.aspnetcore": {
+              "target": "Package",
+              "version": "[3.5.0, )"
             }
           },
           "imports": [
