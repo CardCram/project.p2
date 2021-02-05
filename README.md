@@ -1,6 +1,7 @@
 CardCram
 
-This app allows the user to create flash cards to help study.
+Project Description:<br>
+This app allows the user to create flash cards to help study. The user can create separate decks for each subject of study, create flash cards with questions and answers to those questions, review these questions, and delete decks and cards.
 
 Technologies Used:<br>
 C#<br>
