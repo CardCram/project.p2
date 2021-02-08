@@ -1,7 +1,7 @@
 CardCram
 
 Project Description:<br>
-This app allows the user to create flash cards to help study. The user can create separate decks for each subject of study, create flash cards with questions and answers to those questions, review these questions, and delete decks and cards.
+This app allows the user to create flash cards to help study. The user can create separate decks for each subject of study, create flash cards with questions and answers to those questions, and delete decks and cards. The user can view cards they have made and see the answer, which has been rendered invisible until highlighted through the use of CSS. The app makes use of Otka security to allow the user to log in and maintain their own separate store of cards.
 
 Technologies Used:<br>
 C#<br>
